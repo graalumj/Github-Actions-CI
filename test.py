@@ -13,6 +13,9 @@ class TestCase(unittest.TestCase):
     def test_mutliply(self):
         self.assertEqual(calculator.multiply(2, 3), 6)
 
+    def test_divide(self):
+        self.assertEqual(calculator.divide(4, 2), 2)
+
 
 if __name__ == '__main__':
     unittest.main()
